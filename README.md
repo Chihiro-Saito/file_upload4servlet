@@ -1,5 +1,4 @@
 # file_upload4servlet
-<<<<<<< HEAD
 Servletでファイルをアップロード・ダウンロードするサンプルコードです。
 
 ## Description
@@ -40,6 +39,3 @@ This software is released under the MIT License, see LICENSE.
 
 ## Authors
 Chihiro.Saito
-=======
-Servletでファイルをアップロード・ダウンロードするサンプルコードです。(This is a sample code for uploading and downloading files with Servlet.)
->>>>>>> origin/main
