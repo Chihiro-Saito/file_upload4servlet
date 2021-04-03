@@ -12,6 +12,7 @@ Javaを学び初めた人向けに、ファイルを操作するAPIの使い方�
 
 ## Dependency
 - Java SE Development Kit 8
+- MySQL 5.7
 - Eclipse Java EE IDE for Web Developers Neon.3 Release (4.6.3)
 - Apache Tomcat 8
 - Apache Maven Compiler Plugin 3.5.1
@@ -27,10 +28,13 @@ Javaを学び初めた人向けに、ファイルを操作するAPIの使い方�
 ``$ git clone https://github.com/Chihiro-Saito/file_upload4servlet.git``
 - プロジェクトをクリーンします。
 - Tomcatの構成済みのリソースに追加します。
+- 以下のファイルの接続タブを表示します。<br>
+``/file_upload4servlet/src/META-INF/persistence.xml``
+- URL・ユーザー・パスワードをお使いのMySQLの情報に変更し、保存します。
 
 ## Usage
-- ブラウザから以下のURLにアクセスします。
- - http://<HostName >:<Port Number>/file_upload4servlet/list
+- ブラウザから以下のURLにアクセスします。<br>
+ ``http://<HostName >:<Port Number>/file_upload4servlet/list``
 - 「ファイルアップロード画面へ」リンクをクリックします。
 - ファイルを添付し、「送信」ボタンをクリックします。
 
