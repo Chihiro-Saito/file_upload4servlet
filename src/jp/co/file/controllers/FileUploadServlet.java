@@ -75,7 +75,7 @@ public class FileUploadServlet extends HttpServlet {
             // ファイルデータをByte[]に型変換し、設定
             file.setData(IOUtils.toByteArray(fileStream));
 
-            // ファイル名を設定
+            // 画像ファイルフラグを設定
             file.setIs_image(isImage);
 
             // 現在日時を取得
